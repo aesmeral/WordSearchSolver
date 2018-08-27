@@ -225,7 +225,7 @@ void WordSearch::find_in_row()
                         position.end.n = k + pattern.size() - 1;
                         position.word = pattern;
                         position.found = true;
-                        position.type = "straight (left -> right)";
+                        position.type = "horizontal (left -> right)";
                         Word_List[i] = position;
                         break;
                     }
@@ -240,7 +240,7 @@ void WordSearch::find_in_row()
                             position.end.m = j;
                             position.end.n = position.begin.n - pattern.length() + 1;
                             position.word = pattern;
-                            position.type = "straight (right -> left)";
+                            position.type = "horizontal (right -> left)";
                             position.found = true;
                             Word_List[i] = position;
                             break;
@@ -275,7 +275,7 @@ void WordSearch::find_in_column()
                         position.end.m = k + pattern.size() - 1;
                         position.word = pattern;
                         position.found = true;
-                        position.type = "straight (up -> down)";
+                        position.type = "vertical (up -> down)";
                         Word_List[i] = position;
                         break;
                     }
@@ -290,7 +290,7 @@ void WordSearch::find_in_column()
                             position.end.n = j;
                             position.end.m = position.begin.m - pattern.length() + 1;
                             position.found = true;
-                            position.type = "straight (down -> up)";
+                            position.type = "vertical (down -> up)";
                             position.word = pattern;
                             Word_List[i] = position;
                             break;
