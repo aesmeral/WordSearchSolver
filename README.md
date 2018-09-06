@@ -7,3 +7,8 @@ The program is written in C++ and uses the Knuth-Morris-Pratt algorithm. It take
 
 ## How to use it
 1. Find a [wordsearch](https://www.brainzilla.com/word-games/word-search/printable)
+2. Count the number of columns and rows (most likely they're the same) and input those values first on the table.txt and     follow up with the word search puzzle after and make sure that the last row does not have a trailing white space.
+Example:
+<p align="center">
+<img src= "docs/TableExample.png" width="250" height="250"/>
+</p>
