@@ -23,3 +23,6 @@ After all that you should have something like
 </p>
 
 and congratulations, you now have yourself a working word search puzzle solver. 
+
+## Author
+* **Anthony Esmeralda**
