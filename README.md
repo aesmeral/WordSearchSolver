@@ -16,3 +16,10 @@ Example:
 </p>
 
 4. Compile and run.
+
+After all that you should have something like 
+<p align="center">
+  <img src="  " width="600" height="450" />
+</p>
+
+and congratulations, you now have yourself a working word search puzzle solver. 
