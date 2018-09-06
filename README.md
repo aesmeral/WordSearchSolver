@@ -12,7 +12,7 @@ The program is written in C++ and uses the Knuth-Morris-Pratt algorithm. It take
 
 Example:
 <p align="center">
-<img src="docs/TableExample.png" width="250" height="250"/><img src ="docs/WordListExample.png" width="250" height="250"/>
+<img src="docs/TableExample.png" width="250" height="250"/><img src ="docs/WordListsExample.png" width="250" height="250"/>
 </p>
 
 4. Compile and run.
