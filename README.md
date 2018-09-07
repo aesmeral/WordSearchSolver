@@ -8,7 +8,7 @@ The program is written in C++ using xcode and uses the Knuth-Morris-Pratt algori
 ## How to use it
 **Note: If running on VS, include the algorithm library in the WordSearch.h. (xcodes didnt need that library for it to work).**
 1. Find a [wordsearch](https://www.brainzilla.com/word-games/word-search/printable)
-2. Count the number of columns and rows (most likely they're the same) and input those values **first on the table.txt and follow up with the word search puzzle** (can copy and paste from the pdf) after and make sure that the last row does not have a trailing white space. **Note: With Windows: When copying and paste, it will leave some space. Please remove the space inorder for it to work**
+2. Count the number of columns and rows (most likely they're the same) and input those values **first on the table.txt and follow up with the word search puzzle** (can copy and paste from the pdf) after and make sure that the last row does not have a trailing white space. **Note: With Windows: When copying and paste, it will leave spaces between characters. Please remove the space in order for it to work**
 3. Copy and paste the list of words that you need to find in the wordlist.txt
 
 Example:
