@@ -23,6 +23,8 @@ After all that you should have something like
   <img src="docs/OutputExample.png" width="600" height="450" />
 </p>
 
+## Possible future updates
+**Implement Multithreading** (since finding diagonal, row, and column can be done independently).
 
 ## Author
 * **Anthony Esmeralda**
